@@ -7,7 +7,7 @@ Devin here; This repository holds my code for a project from an Assembly and Com
 
 **Overarching Project Goal**
 
-These classes form an elemental example of the software behind 90s computer architecture. The Object Oriented CPU engine I've built takes in BASIC-based assembly language as input; Said input is lexed, parsed, and semantically analyzed prior to being converted to binary. The bitcode is then stored in the machine's virtual memory space.
+These classes form an elemental example of the software behind 90s computer architecture. The Object Oriented CPU engine I've built takes in BASIC-based assembly language as input; Said input is lexed, parsed, and semantically analyzed prior to being converted to binary. The bitcode is then stored in the CPU engine's virtual memory space.
 
 
 
@@ -19,11 +19,14 @@ There are several distinguishable aspects within this project worth noting.
 
 **Running the Code**
 
+The execution of this program is shell based. I made a testing file that runs through a premade example...(TBC)
+
 *Input* : Assembly language on file written in a variant of BASIC
 *Intermediary* : -> Lexical Analysis -> Binary Stream -> Executable ->
 *Output* : Execute 
 
 *Execution* :
+
 - launch a terminal/shell, change working directory to `CPU`, run shell commands:
     javac *.java
     java Driver
