@@ -9,6 +9,8 @@ Devin here; This repository holds my code for a project from an Assembly and Com
 These classes form an elemental example of the software behind 90s computer architecture. The machine I've built takes a BASIC-based assembly language as input; Said input is lexed, parsed, and semantically analyzed prior to being converted to binary.
 
 
+**Notable Aspects and Teaching Points**
+
 **Running the Code**
 
 Input: Assembly language on file written in a variant of BASIC
